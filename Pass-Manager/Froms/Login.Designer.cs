@@ -1,6 +1,6 @@
 ﻿namespace Pass_Manager
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Erforderliche Designervariable.

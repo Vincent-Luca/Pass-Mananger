@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pass_Manager.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,9 @@ namespace Pass_Manager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            new PassMananger();
+            Application.Run(PassMananger.Instance.Login);
         }
     }
 }
